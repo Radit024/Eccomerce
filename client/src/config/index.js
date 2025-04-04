@@ -41,7 +41,7 @@ export const loginFormControls = [
 
 export const addProductFormElements = [
   {
-    label: "Title",
+    label: "Category",
     name: "title",
     componentType: "input",
     type: "text",
@@ -58,11 +58,11 @@ export const addProductFormElements = [
     name: "category",
     componentType: "select",
     options: [
-      { id: "men", label: "Men" },
-      { id: "women", label: "Women" },
-      { id: "kids", label: "Kids" },
-      { id: "accessories", label: "Accessories" },
-      { id: "footwear", label: "Footwear" },
+      { id: "Makanan Ringan", label: "Makanan Ringan" },
+      { id: "Oleh-Oleh", label: "Oleh-Oleh" },
+      { id: "Pupuk", label: "Pupuk" },
+      { id: "Pakan Ternak", label: "Pakan Ternak" },
+      { id: "Obat Herbal", label: "Obat Herbal" },
     ],
   },
   {
@@ -113,28 +113,28 @@ export const shoppingViewHeaderMenuItems = [
     path: "/shop/listing",
   },
   {
-    id: "men",
-    label: "Men",
+    id: "makanan-ringan",
+    label: "Makanan Ringan",
     path: "/shop/listing",
   },
   {
-    id: "women",
-    label: "Women",
+    id: "oleh-oleh",  
+    label: "Oleh-Oleh",
     path: "/shop/listing",
   },
   {
-    id: "kids",
-    label: "Kids",
+    id: "pupuk",
+    label: "Pupuk",
     path: "/shop/listing",
   },
   {
-    id: "footwear",
-    label: "Footwear",
+    id: "pakan-ternak",
+    label: "Pakan Ternak",
     path: "/shop/listing",
   },
   {
-    id: "accessories",
-    label: "Accessories",
+    id: "obat-herbal",
+    label: "Obat Herbal",
     path: "/shop/listing",
   },
   {
@@ -145,11 +145,11 @@ export const shoppingViewHeaderMenuItems = [
 ];
 
 export const categoryOptionsMap = {
-  men: "Men",
-  women: "Women",
-  kids: "Kids",
-  accessories: "Accessories",
-  footwear: "Footwear",
+  makanan_ringan: "Makanan Ringan",
+  oleh_oleh: "Oleh-Oleh",
+  pupuk: "Pupuk",
+  pakan_ternak: "Pakan Ternak",
+  obat_herbal: "Obat Herbal"
 };
 
 export const brandOptionsMap = {
@@ -163,11 +163,11 @@ export const brandOptionsMap = {
 
 export const filterOptions = {
   category: [
-    { id: "men", label: "Men" },
-    { id: "women", label: "Women" },
-    { id: "kids", label: "Kids" },
-    { id: "accessories", label: "Accessories" },
-    { id: "footwear", label: "Footwear" },
+    { id: "Makanan Ringan", label: "Makanan Ringan" },
+    { id: "Oleh Oleh", label: "Oleh Oleh" },
+    { id: "Pupuk", label: "Pupuk" },
+    { id: "Pakan Ternak", label: "Pakan Ternak" },
+    { id: "Obat Herbal", label: "Obat Herbal" },
   ],
   brand: [
     { id: "nike", label: "Nike" },
