@@ -65,19 +65,7 @@ export const addProductFormElements = [
       { id: "Obat Herbal", label: "Obat Herbal" },
     ],
   },
-  {
-    label: "Brand",
-    name: "brand",
-    componentType: "select",
-    options: [
-      { id: "nike", label: "Nike" },
-      { id: "adidas", label: "Adidas" },
-      { id: "puma", label: "Puma" },
-      { id: "levi", label: "Levi's" },
-      { id: "zara", label: "Zara" },
-      { id: "h&m", label: "H&M" },
-    ],
-  },
+
   {
     label: "Price",
     name: "price",
@@ -152,15 +140,6 @@ export const categoryOptionsMap = {
   obat_herbal: "Obat Herbal"
 };
 
-export const brandOptionsMap = {
-  nike: "Nike",
-  adidas: "Adidas",
-  puma: "Puma",
-  levi: "Levi",
-  zara: "Zara",
-  "h&m": "H&M",
-};
-
 export const filterOptions = {
   category: [
     { id: "Makanan Ringan", label: "Makanan Ringan" },
@@ -168,14 +147,6 @@ export const filterOptions = {
     { id: "Pupuk", label: "Pupuk" },
     { id: "Pakan Ternak", label: "Pakan Ternak" },
     { id: "Obat Herbal", label: "Obat Herbal" },
-  ],
-  brand: [
-    { id: "nike", label: "Nike" },
-    { id: "adidas", label: "Adidas" },
-    { id: "puma", label: "Puma" },
-    { id: "levi", label: "Levi's" },
-    { id: "zara", label: "Zara" },
-    { id: "h&m", label: "H&M" },
   ],
 };
 
